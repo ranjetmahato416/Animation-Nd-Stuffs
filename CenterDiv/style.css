@@ -1,0 +1,21 @@
+/* Center with position:absolute */
+
+.classic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centering with display:flex */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* centering with display:grid */
+.grid{
+    display: grid;
+    place-items: center;
+}
