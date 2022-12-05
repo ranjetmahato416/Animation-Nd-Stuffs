@@ -1,5 +1,6 @@
 body{
-    background-color: #131316;
+    overflow-x: hidden;
+    background-color: #14557B;
     color: #ffffff;
     font-family:Arial, Helvetica, sans-serif;
     padding: 0;
@@ -13,7 +14,7 @@ section{
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .hidden {
@@ -29,18 +30,35 @@ section{
     transform: translateX(0);
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 0.2rem;
+    margin: 1rem 0.5rem;
+    font-weight: 800;
+    font-size: large;
+}
+.logo{
+    border-radius: 50%;
+    
+}
+
 .images {
     display: flex;
 }
 
 .image {
     display: inline-block;
-    background-color: rgb(153, 153, 209);
     width: 100%;
     height: auto;
     object-fit: scale-down;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 0.2rem;
     margin: 0 0.5rem;
 }
